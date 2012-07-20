@@ -17,13 +17,13 @@ module Backup
       {
         'fog' => {
           :require => 'fog',
-          :version => '~> 1.1.0',
+          :version => '~> 1.1',
           :for     => 'Amazon S3, Rackspace Cloud Files (S3, CloudFiles Storages)'
         },
 
         'dropbox-sdk' => {
           :require => 'dropbox_sdk',
-          :version => '~> 1.2.0',
+          :version => '~> 1.2',
           :for     => 'Dropbox Web Service (Dropbox Storage)'
         },
 
@@ -47,7 +47,7 @@ module Backup
 
         'mail' => {
           :require => 'mail',
-          :version => '~> 2.4.0',
+          :version => '~> 2.4',
           :for     => 'Sending Emails (Mail Notifier)'
         },
 
@@ -59,7 +59,7 @@ module Backup
 
         'httparty' => {
           :require => 'httparty',
-          :version => '~> 0.8.1',
+          :version => '~> 0.8',
           :for     => 'Sending Http Updates'
         },
 
@@ -77,7 +77,7 @@ module Backup
 
         'parallel' => {
           :require => 'parallel',
-          :version => '~> 0.5.12',
+          :version => '~> 0.5',
           :for => 'Adding concurrency to Cloud-based syncers.'
         }
       }
